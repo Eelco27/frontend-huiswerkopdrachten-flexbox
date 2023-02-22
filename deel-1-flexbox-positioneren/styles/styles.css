@@ -1,4 +1,5 @@
 /*OPDRACHT 1*/
+
 .opdracht-1 > ul{
     display: flex;
     flex-direction: row;
@@ -10,10 +11,34 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 115px;
+
 }
 .item{
-width: 400px;
+    height: 115px;
+    flex-basis: 400px;
 }
 /*opdracht 3*/
+
+.opdracht-3 > ul{
+    display: flex; /*flex-box property*/
+    flex-direction: column; /*staat standaard op row als deze property niet word aangeroepen*/
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 0 0 400
+}
+
+.flex-item1 {
+
+    align-self: flex-start;
+}
+
+.flex-item2  {
+
+    align-self: center;
+}
+.flex-item3  {
+align-self: flex-end;
+}
+
+/* OPDRACHT 4*/
 
