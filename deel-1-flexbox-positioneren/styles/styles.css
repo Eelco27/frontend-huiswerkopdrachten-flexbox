@@ -1,3 +1,9 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 /*OPDRACHT 1*/
 
 .opdracht-1 > ul{
@@ -42,3 +48,40 @@ align-self: flex-end;
 
 /* OPDRACHT 4*/
 
+.opdracht-4 >ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 0.8em;
+}
+
+/*OPDRACHT 5*/
+
+.opdracht-5 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+
+
+}
+.opdracht-5 .item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+
+}
+.opdracht-5 .item:nth-of-type(1){
+    align-items: flex-start;
+}
+
+.opdracht-5 .item:nth-of-type(2){
+    align-items: center;
+}
+.opdracht-5 .item:nth-of-type(3){
+    align-items: flex-end;
+}
