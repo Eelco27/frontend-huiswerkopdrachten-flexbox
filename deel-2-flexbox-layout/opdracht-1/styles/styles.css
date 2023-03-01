@@ -1,1 +1,51 @@
-/*Schrijf hier jouw CSS*/
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}/*Schrijf hier jouw CSS*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    min-height: 100vh;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    flex:0 0 100px;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    color: blue;
+    height: 600px;
+    flex-grow: 1;
+    flex-shrink: 0;
+
+}
+.article {
+    display: flex;
+    justify-content: flex-start;
+    flex: 1 1 50%;
+}
+.nav-box{
+
+    align-items: stretch;
+    flex: 0 0 25%;  /* flex-grow 0 | Flex-shrink 0| flex-basis 25% */
+
+
+}
+.aside-box{
+    align-items: stretch;
+    flex:0 0 25%;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex: 0 0 100px;
+
+
+}
