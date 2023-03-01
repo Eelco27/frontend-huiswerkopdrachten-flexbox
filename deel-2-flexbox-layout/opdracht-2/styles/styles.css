@@ -1,1 +1,37 @@
 /*Schrijf hier jouw CSS*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin 0;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    flex-basis: 20%;
+}
+header{
+
+    flex: 0 0 100px;
+}
+article{
+    flex-basis: 550px;
+}
+footer{
+    flex: 0 0 100px;
+}
+.col-1{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 15%;
+}
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 85%;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    flex:1 1 0;
+}
