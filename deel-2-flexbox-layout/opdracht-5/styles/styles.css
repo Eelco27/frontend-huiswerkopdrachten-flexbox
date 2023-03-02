@@ -10,7 +10,7 @@ body{
     min-height: 100vh;
 }
 header , footer{
-    flex:0 0 150px
+    flex:0 0 120px
 }
 .main-box{
     display: flex;
@@ -18,11 +18,14 @@ header , footer{
     flex: 1 0 0;
 }
 article{
-    flex:1 0 auto;
+    flex:0 0 60%;
+    order: 2;
 }
 nav{
-    flex: 1 0 auto;
+    flex: 0 0 20%;
+    order: 1;
 }
 aside{
-    flex: 1 0 auto;
+    flex: 0 0 20%;
+    order: 3;
 }
